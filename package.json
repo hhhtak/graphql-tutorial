@@ -1,0 +1,24 @@
+{
+  "name": "05_graphql-tutorial",
+  "version": "1.0.0",
+  "description": "graphql tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhhtak/graphql-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhhtak/graphql-tutorial/issues"
+  },
+  "homepage": "https://github.com/hhhtak/graphql-tutorial#readme",
+  "dependencies": {
+    "graphql": "^16.6.0",
+    "ts-node": "^10.9.1"
+  }
+}
