@@ -5,6 +5,7 @@ import { graphql, buildSchema } from 'graphql';
 const schema = buildSchema(`
   type Query {
     hello: String
+    hello2: String
   }
 `);
 
@@ -12,6 +13,9 @@ const schema = buildSchema(`
 const rootValue = {
   hello: () => {
     return 'Hello world!';
+  },
+  hello2: () => {
+    return 'Hello world!!!!';
   },
 };
 
